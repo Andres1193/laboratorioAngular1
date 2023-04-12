@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #ffffffa8;
+}
+
+body {
+    background-color: #632432;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo-formulario {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    color: black;
+}
+
+.formulario {
+    width: 400px;
+    background: #0a3441;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 30px #000;
+}
+
+.contenedor-boton{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+button {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 11px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e4144;
+}
+  
+button:focus{ 
+    outline: none;
+}
+
+.contenedor-tabla {
+    margin: 150px auto;
+    width: 310px;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+
+thead{
+    background-color: #0a3441;
+    border-bottom: solid 5px #0f2336;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #126680;
+    color: white;
+}
+
+.msj {
+    margin: 150px auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
